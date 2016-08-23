@@ -1,3 +1,13 @@
+To build on OS X:
+
+brew install binutils autoconf automake libelf libusb libftdi libhid
+#run glibtoolize manually to deal w/ libtoolize not found
+./glibtoolize
+./bootstap
+./configure
+make
+
+
 See the documentation file for the details.
 
 The latest version of AVRDUDE is always available here:
